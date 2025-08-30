@@ -1,0 +1,20 @@
+{
+    "bookings": [
+        {
+            "id": "VXR2024001",
+            "user_phone": "0901234567",
+            "user_name": "Nguyễn Văn A",
+            "route": "Hà Nội - Hồ Chí Minh",
+            "departure_date": "2024-09-15",
+            "departure_time": "15:00"
+        },
+        {
+            "id": "VXR2024002",
+            "user_phone": "0909876543",
+            "user_name": "Trần Thị B",
+            "route": "Hồ Chí Minh - Nha Trang",
+            "departure_date": "2024-09-16",
+            "departure_time": "18:30"
+        }
+    ]
+}

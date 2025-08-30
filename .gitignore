@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual env
+venv/
+.env
+
+# Logs
+*.log
+
+# Data folder
+data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.pytest_cache/
+.mypy_cache/

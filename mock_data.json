@@ -1,0 +1,26 @@
+{
+  "bookings": [
+    {
+      "id": "VXR2024001",
+      "route": "Hà Nội - TP.HCM",
+      "departure_date": "2024-09-15",
+      "departure_time": "14:00",
+      "status": "confirmed"
+    },
+    {
+      "id": "VXR2024002",
+      "route": "Hà Nội - Đà Nẵng",
+      "departure_date": "2024-09-20",
+      "departure_time": "06:00",
+      "status": "confirmed"
+    }
+  ],
+  "available_times": [
+    "06:00",
+    "08:00",
+    "10:00",
+    "14:00",
+    "18:00",
+    "22:00"
+  ]
+}
