@@ -83,11 +83,15 @@ pip install -r requirements.txt
 ### 4. Cấu hình environment
 Tạo file `.env` trong thư mục gốc:
 ```env
-# OpenAI Configuration
-OPENAI_API_KEY=sk-your-openai-api-key-here
+# Database config
+POSTGRES_HOST=localhost
+POSTGRES_PORT=5432
+POSTGRES_DATABASE=postgres
+POSTGRES_USERNAME=your_username
+POSTGRES_PASSWORD=your_password
 
-# Database Configuration (optional)
-DATABASE_URL=postgresql+psycopg2://user:password@localhost:5432/vexere
+# OpenAI API
+OPENAI_API_KEY=your_openai_api_key
 
 
 ### 5. Chạy ứng dụng
