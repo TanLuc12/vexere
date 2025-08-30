@@ -92,31 +92,33 @@ POSTGRES_PASSWORD=your_password
 
 # OpenAI API
 OPENAI_API_KEY=your_openai_api_key
-
+```
 
 ### 5. Chạy ứng dụng
 ```bash
 # Development mode
 uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
-
+```
 
 ### 6. Truy cập ứng dụng
+``` bash
 - **API Documentation**: http://127.0.0.1:8000/chat
 - **Gradio UI**: http://127.0.0.1:8000/gradio
-
+```
 
 ---
 
-## 🧪 Testing
+## 7 Testing
 
 ```bash
 # Chạy tất cả tests
 pytest -v
 
 ```
-### Gradio Interface
-Truy cập http://localhost:8000/gradio 
-
+### 8 Gradio Interface
+``` bash
+http://127.0.0.1:8000/gradio
+```
 ---
 
 
