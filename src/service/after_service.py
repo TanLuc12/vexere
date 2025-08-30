@@ -23,7 +23,7 @@ class AfterServiceFlow:
         """Thực hiện đổi giờ khởi hành"""
         booking = self.find_booking(booking_id)
         if not booking:
-            return f"❌ Không tìm thấy vé {booking_id}"
+            return f"Không tìm thấy vé {booking_id}"
 
         old_time = booking["departure_time"]
         booking["departure_time"] = new_time
