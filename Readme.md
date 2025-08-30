@@ -60,7 +60,7 @@ vexere/
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/your-username/vexere-ai.git
+git clone https://github.com/TanLuc12/vexere.git
 cd vexere-ai
 ```
 
@@ -109,19 +109,7 @@ uvicorn src.main:app --reload --host 0.0.0.0 --port 8000
 # Chạy tất cả tests
 pytest -v
 
-# Chạy tests với coverage
-pytest --cov=src tests/
-
-# Chạy tests cụ thể
-pytest tests/test_rag.py -v
-pytest tests/test_after_service.py -v
 ```
-
----
-
-## 📖 Sử dụng
-
-
 ### Gradio Interface
 Truy cập http://localhost:8000/gradio 
 
